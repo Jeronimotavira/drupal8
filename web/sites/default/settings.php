@@ -803,3 +803,13 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_pPxElnZkSCK116tvM-vFC39deo8tHBbLV-bFN0OCbFRdkQ7y6uPg2pLp5G5ly-LylHdyon47YA/sync';
+
+$databases['prueba']['default'] = [
+  'database' => 'prueba',
+  'username' => 'user',
+  'password' => 'pass',
+  'host' => 'localhost',
+  'port' => '3306',
+  'driver' => 'mysql',
+  'prefix' => '',
+];
